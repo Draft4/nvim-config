@@ -2,6 +2,10 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
+-- enable soft line wrap
+vim.opt.wrap = true
+
+-- spell check language
 vim.opt.spelllang = {}
 
 if vim.g.neovide then
